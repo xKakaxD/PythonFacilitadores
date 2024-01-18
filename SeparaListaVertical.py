@@ -1,9 +1,9 @@
 # Substitua a String com nomes separados por vírgulas e espaços
-nomes = "Exemplo1, Exemplo2, Exemplo3."
+listaNomes = "Exemplo1, Exemplo2, Exemplo3."
 
 # Divide usando a vírgula como parâmetro
-nomes_divididos = nomes.split(", ")
+nomesDivididos = listaNomes.split(", ")
 
 # Imprima cada nome na tela verticalmente
-for nome in nomes_divididos:
-    print(nome)
+for listaNomes in nomesDivididos:
+    print(listaNomes)
