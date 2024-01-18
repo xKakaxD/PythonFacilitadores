@@ -4,6 +4,6 @@ nomes = "Exemplo1, Exemplo2, Exemplo3."
 # Divide usando a vírgula como parâmetro
 nomes_divididos = nomes.split(", ")
 
-# Imprima cada nome na tela
+# Imprima cada nome na tela verticalmente
 for nome in nomes_divididos:
     print(nome)
